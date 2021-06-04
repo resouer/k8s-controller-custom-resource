@@ -1,5 +1,5 @@
-apiVersion: samplecrd.k8s.io/v1
-kind: Network
+apiVersion: samplecrd.k8s.io/v1 //api对象的组/版本
+kind: Network  //api对象的资源类型
 metadata:
   name: example-network
 spec:
